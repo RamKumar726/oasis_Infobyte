@@ -6,7 +6,6 @@ public class Random_number {
         String like;
         Menu.menu();
         int computer_number=RandomNumer.randomNumber(0,100);
-        System.out.println(computer_number);
         do{
             for(int i=5;i>0;i--){
                 int guess=GuessNumber.guessNumber();
